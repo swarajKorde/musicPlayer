@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(182, 177, 177);
+}
+
+.mainframe{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 55%;
+    overflow: hidden;
+    
+    /* border: 2px solid black; */
+}
+
+.phase1{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.phase1 > img{
+        height: 40rem;
+        width: 33rem;
+        border-radius: 0 0 100% 700%;
+        box-shadow: -20px 5px 40px purple ;
+        object-fit: cover;
+}
+.btns{
+    /* background-color: red; */
+    padding: 10px;
+    display: flex;
+    justify-content:end ;
+    width: 100%;
+}
+
+.prev{
+    transform: rotate(180deg);
+}
+
+.btns> div{
+    /* border: 2px solid green; */
+    overflow: hidden;
+    
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+    /* background-color: green; */
+}
+.btns >div >img{
+    color: aqua;
+}
+
+#range{
+    height: 3rem;
+    width: 100%;
+    
+}
+
+#title{
+    font-size: x-large;
+    align-self: flex-start;
+    border-radius: 30px;
+    text-transform: capitalize;
+    transform: ;
+}
+
+.songs{
+    background-color: rgb(160, 158, 154);
+    /* border: 3px solid green; */
+    overflow: hidden;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 1px 1px 40px 1px purple;
+    height: 50em;
+    width: 20em;
+}
+.thisSong{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    margin-top: 16px;
+    list-style: decimal;
+    font-size: 1.2rem;
+    padding: 2px;
+    /* background-color: aqua; */
+    width: 15rem;
+    color: ;
+    /* display: inline; */
+    /* overflow-y: auto; */
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    /* box-shadow: 0px 0px 12px red; */
+    cursor: pointer;
+  
+}
+
+.thisSong:hover{
+    background-color: lightgreen;
+}
+.thisSong:hover::after{
+    content: "Play";
+    position: relative;
+    right: -5px;
+    text-transform: none;
+    
+}
+
+@media (max-width:900px) {  /* … */
+  body{
+    /* background-color: black; */
+  }
+
+  .mainframe{
+    width: 100%;
+    display: contents;
+    margin: 80px;
+    padding: 3px;
+  }
+.phase1{
+    margin: 10px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.phase1 > img{
+
+    height: 26rem;
+    width: 22rem;
+    border-radius: 0% 0% 45% 45%;
+    box-shadow: 0px 4px 37px purple;
+    object-fit: cover;
+}
+.btns{
+    /* background-color: red; */
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+.btns>div{
+    cursor: cell
+}
+#title{
+    margin-top: 10px;
+    margin-bottom: -15px;
+   align-self: center;
+}
+.playlist{
+   margin-top: 50px;
+  padding: 0;
+  display: flex;
+  
+  /* align-items: center; */
+  justify-content: center;
+  /* background-color: lightcoral; */
+  background-color: calc();
+  align-self: center;
+
+}
+.songs{
+    background-color: darkslategrey;
+}
+
+}

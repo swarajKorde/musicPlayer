@@ -1,0 +1,23 @@
+[ 
+    
+    {
+        "name":"SpiderMan Og Theme",
+        "url":"songs/spiderman.mp3",
+        "image":"https://i.pinimg.com/736x/da/a7/7f/daa77f76b5a1290a13da2f73c1ba9b5b.jpg" 
+    },
+     {
+        "name":"public/Song doesnt Exist",
+        "url":"https://www.youtube.com/watch?v=OdvyHS3J4Fo&list=PLbtI3_MArDOmSKABu09sEs0SxCibd1wgr&index=2",
+        "image":"public/superman.jpg" 
+    }
+    ,{
+        "name":"superman 2025",
+        "url":"songs/superman2025.mp3",
+        "image":"public/superman.jpg" 
+    },
+     {
+        "name":"PunkRocket",
+        "url":"nah.mp3",
+        "image":"https://variety.com/wp-content/uploads/2024/10/Superdog-2.jpg?w=1000&h=667&crop=1&resize=1000%2C667" 
+    }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainframe">
+        <div class="phase1">
+            <!-- This will cover the player part -->
+            <img id="mainimg" src="/Assets/superman.jpg" alt="superman">
+            <h5 id="title" class="title">
+                Flight
+            </h5>
+            <input type="range" min="0" max="100" value="0" id="range">
+            <div class="btns" >
+            
+                    <div >
+                        <img class="prev" src="public/caret-right-solid-full.svg" alt="" >
+
+                    </div>
+                    <div>
+                        <img id="play" src="public/play-solid-full.svg" alt="">
+
+                    </div>
+                    <div >
+                        <img class="next" src="public/caret-right-solid-full.svg" alt="" >
+
+                    </div>
+               
+              
+            </div>
+        </div>
+        <div class="phase2">
+            <!-- This will cover the playlist part -->
+             <div class="playlist">
+                <ul class="songs">
+                    <!-- The list is being created by JS itself -->
+                    <!-- <li>Play This Song</li>
+                    <li>Play This Song</li>
+                    <li>Play This Song</li>
+                    <li>Play This Song</li>
+                    <li>Play This Song</li> -->
+                </ul>
+             </div>
+        </div>
+    </div>
+    <script src="atma.js"></script>
+</body>
+</html>
